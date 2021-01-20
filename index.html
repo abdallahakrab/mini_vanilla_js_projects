@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Recipe App</title>
+  </head>
+  <link rel="stylesheet" href="home.css">
+  
+  <body>
+    <section class="home-container">
+      <h1 class="title">Recipe App</h1>
+      <form onsubmit="onSearchSubmit(event)" id="search-form" class="search"  method="get">
+        <input
+          type="text"
+          name="search"
+          id="search-box"
+          placeholder="Search Your Recipe..."
+          oninput="onInputChange(event)"
+        />
+        <ion-icon class="icon" name="search"></ion-icon>
+      </form>
+        <section id="results">
+          <!-- JS -->
+    </section>
+
+    <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
+<!--  <div class="card">
+            <img src="./assets/chicken.jpeg" />
+            <div class="card-name_button">
+              <h3 class="recipe-title">Chicken Vesuvio</h3>
+              <a href="#"class="recipe-button">View Recipe</a>
+            </div>
+
+            <p class="recipe-calories"><span class="label">Calories: </span>4228.04</p>
+            <p class="recipe-diet_label"><span class="label">Diet Label: </span>Low-Carb</p>
+            <p class="recipe-Health_labels"><span class="label"> Labels:</span>Peanut</p>
+          </div> -->
